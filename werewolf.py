@@ -105,8 +105,6 @@ def o_detail(timeslot, rem1):
 def get_player_names():
     global player_list, num_of_player, villager
 
-    player_list = []
-
     while True:
         try:
             num_of_player = int(input("Enter the number of players: "))
